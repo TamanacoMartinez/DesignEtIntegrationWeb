@@ -1,0 +1,54 @@
+/*style.css*/
+/*Programmé par Tamanaco Martinez*/
+/*Dernière Modification: 27-11-2020*/
+
+
+body {  width: 900px;
+        margin: auto;
+        background-image: url(../img/ACDC01.jpeg);
+        background-repeat: no-repeat;
+        background-color: black;  
+}
+
+h1 { font-size: 36px;
+    
+}
+
+h2 {font-size: 24px;
+}
+
+h1, h2 {color: yellow; 
+        text-align: center;
+}
+
+
+p { font-size: 14px;
+    text-align: justify;
+    color: white;
+
+}
+
+
+a { color: skyblue;
+    font-size: 14px;
+    text-decoration: none;
+    
+}
+
+a:visited {
+        color:blue
+} 
+
+a:hover {
+        text-decoration: underline;
+}
+
+img { width: 300px;
+    border-radius: 1em;
+    display: block;
+    margin: auto;
+}
+
+img:hover {box-shadow: 3px 2px 10px;
+}
+

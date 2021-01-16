@@ -1,0 +1,24 @@
+/* style.css */
+/* Programmé par Tamanaco Martínez */
+/* Dernière Modification: 2021-01-16 */
+
+.fondRouge {
+    background-color: red;
+    height: 15em;
+}
+
+.fondBleu {
+    background-color: blue;
+    height: 15em;
+}
+
+.fondJaune {
+    background-color: yellow;
+    height: 15em;
+}
+
+.fondVert {
+    background-color: green;
+    height: 15em;
+}
+
