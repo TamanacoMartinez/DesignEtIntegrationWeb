@@ -1,0 +1,129 @@
+/* style.css */
+/* Programmé par Tamanaco Martínez */
+/* Dernière Modification: 2021-04-04 */
+
+
+
+body {
+   background-color: black;     
+}
+
+.bg-dark {
+    background-color: rgb(0 0 0 / 90%);
+}
+
+.navbar-dark .navbar-toggler-icon {
+background-image: url(../media/download.png);
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 4.0em;
+    height: 4.0em;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%;
+}
+
+#banniere {
+    background-image: url(../media/Banniere.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 35%;
+    padding-bottom: 35%;
+}
+
+@media screen and (max-width: 768px) { 
+    #banniere {
+        background-image: url(../media/img-02.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 35%;
+        padding-bottom: 35%;   
+    }
+    
+}
+
+@media screen and (max-width: 576px) { 
+    #banniere {
+        background-image: url(../media/img-01.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 35%;
+        padding-bottom: 35%;   
+    }
+    
+}
+
+
+.icone {
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #6c757d;;
+    text-align: left;
+}
+
+
+#form {
+    color:aliceblue;
+}
+
+#tshirt {
+    height: fit-content;
+    width: fit-content;
+
+}
+
+h2 {
+    color: white;
+}
+
+hr { 
+    background: #353434;
+    height: 1px;
+    border-style: none;
+    margin: 2% 0;
+}
+
+#font {
+    color: white;
+    font-size: 3rem;
+}
+
+#font2 {
+    color: white;
+}
+
+
+.parallax {
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-01 {
+    background-image: url(../media/img-01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 35%;
+    padding-bottom: 35%;
+
+}
+
+.img-02 {
+    background-image: url(../media/img-02.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 35%;
+    padding-bottom: 35%;
+
+}

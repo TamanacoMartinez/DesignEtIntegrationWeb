@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<!--index.html-->
+<!--Programmé par Tamanaco Martínez-->
+<!--derniere modification : 2021-04-04-->
+<html lang="fr-ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"> 
+    <title>Concours</title>
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/png" href="media/ZackSnydersJusticeLeague.png"/>
+    
+</head>
+
+<body>
+    
+  <header>
+
+  <!--navbar-->
+        
+        <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="Accueil.html">Accueil<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="ZackSnyder.html">Zack Snyder</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="Concours.html">Concours</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+                        
+    </header>
+
+
+    <!--section jumbotrom-->
+
+    <section>
+
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4 text-center font-weight-bold">Concours!!</h1>
+          <p class="lead text-center font-weight-bold">Courez la chance de gagner un t-shirt de la Ligue de la Justice de Zack Snyder!!</p>
+        </div>
+      </div>
+
+    </section>
+
+ 
+    <!--section formulaire-->
+    
+    <section>
+
+        <div class="container-fluid pt-5" id="form">
+            <div class="row">
+                <div class="col-12 text-center"> 
+
+                    <h2 class="text-center">Remplissez le Formulaire pour Participer</h2>
+                    <form>
+                        <div class="form-row pt-5">
+                            <div class="form-group col-md-6">
+                              <label for="nomDeFamille">Nom de famille</label>
+                              <input type="text" class="form-control" id="nomDeFamille" placeholder="Entrez votre nom de famille">
+                            </div>
+                            <div class="form-group col-md-6">
+                              <label for="prenom">Prenom</label>
+                              <input type="text" class="form-control" id="prenom" placeholder="Entrez votre prenom">
+                            </div>
+                          </div>
+                        <div class="form-row">
+                          <div class="form-group col-md-6">
+                            <label for="email">Couriel electronique</label>
+                            <input type="email" class="form-control" id="email" placeholder="Entrez votre couriel electronique">
+                          </div>
+                          <div class="form-group col-md-6">
+                            <label for="motDePasse">Mot de passe</label>
+                            <input type="password" class="form-control" id="motDePasse" placeholder="Entrez votre mot de passe">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label for="adresse">Addresse</label>
+                          <input type="text" class="form-control" id="adresse" placeholder="Entrez votre adresse">
+                        </div>
+                        <div class="form-row">
+                          <div class="form-group col-md-6">
+                            <label for="Ville">Ville</label>
+                            <input type="text" class="form-control" id="ville" placeholder="Entrez votre ville">
+                          </div>
+                          <div class="form-group col-md-4">
+                            <label for="province">Province</label>
+                            <select id="province" class="form-control">
+                              <option selected>Choisissez...</option>
+                              <option>Alberta</option>
+                              <option>Colombie-Britannique</option>
+                              <option>Île-du-Prince-Édouard</option>
+                              <option>Manitoba</option>
+                              <option>Nouveau-Brunswick</option>
+                              <option>Nouvelle-Écosse</option>
+                              <option>Nunavut</option>
+                              <option>Ontario</option>
+                              <option>Québec</option>
+                              <option>Saskatchewan</option>
+                              <option>Terre-Neuve-et-Labrador</option>
+                              <option>Territoires du Nord-Ouest</option>
+                              <option>Yukon</option> 
+                            </select>
+                          </div>
+                          <div class="form-group col-md-2">
+                            <label for="codePostal">Code postal</label>
+                            <input type="text" class="form-control" id="codePostal" placeholder="xxx-xxx">
+                          </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-4">
+                              <label for="téléphone"><option>Téléphone</option></label>
+                              <input type="tel" class="form-control" id="téléphone" placeholder=" +1 xxx-xxx-xxxx">
+                            </div>
+                            <div class="form-group col-md-4">
+                              <label for="genre">Genre</label>
+                              <select id="genre" class="form-control">
+                                <option selected>Choisissez...</option>
+                                <option>masculin</option>
+                                <option>feminin</option>
+                                <option>autre</option>
+                              </select>
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label for="taille">Taille</label>
+                                <select id="taille" class="form-control">
+                                  <option selected>Choisissez...</option>
+                                  <option>XL</option>
+                                  <option>L</option>
+                                  <option>S</option>
+                                  <option>XS</option>
+
+
+                                </select>
+                              </div>
+                           
+                        <button type="submit" class="btn btn-light">Envoyer</button> 
+                    </form>
+                </div>          
+            </div>
+        </div>
+      </div>
+    
+    </section>
+    
+    <!--section images-->
+    
+    <section>
+        
+      <div class="container pt-3">
+            <div class="row">
+                <div class="col-12 text-center">
+                   
+                    <hr>
+                </div>
+            </div>
+            <div class="row text-center pt-3" id="t-shirt">
+                <div class="col-xl-4 col-md-4">
+                    <img src="media/t-shirt01.jpg"  class="img-fluid" alt="t-shirt 1">
+                </div>
+                <div class="col-xl-4 col-md-4">
+                    <img src="media/t-shirt02.jpg" class="img-fluid" alt="t-shirt 2">
+                </div>
+                <div class="col-xl-4 col-md-4">
+                    <img src="media/t-shirt03.jpg"  class="img-fluid" alt="t-shirt 3">
+                </div>
+              
+                   <hr>
+                
+            <div class="container py-5">
+              <div class="row">
+                <div class="col-xl-4 col-md-4">
+                    <img src="media/t-shirt04.jpg"  class="img-fluid" alt="t-shirt 4">
+                </div>
+                <div class="col-xl-4 col-md-4">
+                    <img src="media/t-shirt05.jpg"  class="img-fluid" alt="t-shirt 5">
+                </div>
+                <div class="col-xl-4 col-md-4">
+                    <img src="media/t-shirt06.jpg"  class="img-fluid" alt="t-shirt 6">
+                </div>
+              </div>
+           </div>
+    
+        </section>
+
+     <!-- section footer-->
+     
+     <section>
+        
+        <div class="container-fluid">
+          <div class="row icone">
+              <div class="col-3 text-center">
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-twitter-square"></i>
+              </div>
+          </div>
+      </div>
+  
+     </section>
+
+<script src="https://kit.fontawesome.com/a46d75ba7a.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="bootstrap-4.3.1-dist/js/bootstrap.js"></script> 
+</body>
+
