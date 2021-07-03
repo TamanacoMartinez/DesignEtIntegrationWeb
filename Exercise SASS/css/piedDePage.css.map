@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,WAAW,CAAC;EACR,gBAAgB,EAAE,KAAK;CAAG;;AAG9B,AAAA,CAAC,CAAC;EACE,KAAK,EAAE,KAAK;CAAG",
+    "sources": [
+        "../sass/piedDePage.sass"
+    ],
+    "names": [],
+    "file": "piedDePage.css"
+}
