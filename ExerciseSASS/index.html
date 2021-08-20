@@ -11,78 +11,83 @@
     <title>Exercise SASS</title>
 </head>
 
+
   
-  <body>
-    <!--Section 1 : Bannière-->
+<body>
+
+  
+
+  <!--Section 1 : Navigation-->
+  <div id="backgroundImage">
+
+  <header>
+
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="#"><img src="media/Jevelin-logov1.png" alt="Jevelin Logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown" >
+        <ul class="navbar-nav ms-auto colorPolice">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home<span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Style
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">People</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Design</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Travel</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Commercial</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-search"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fab fa-facebook-f"></i></a>
+            </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--Section 2 : Bannière-->
     <section>
-        <div class="container-fluid" id="backgroundImage">
-            <div class="row">
-                <div class="col-lg-12">
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                        <a class="navbar-brand" href="#"><img src="media/Logo_dark_2-1.png" alt="Jevelin Logo"></a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                          <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNavDropdown" >
-                          <ul class="navbar-nav ms-auto">
-                            <li class="nav-item active">
-                              <a class="nav-link" href="#">Home<span class="sr-only"></span></a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                  Style
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                  <a class="dropdown-item" href="#">Action</a>
-                                  <a class="dropdown-item" href="#">Another action</a>
-                                  <a class="dropdown-item" href="#">Something else here</a>
-                                </div>
-                              </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#">People</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Design</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="#">Travel</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="#">Commercial</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="#"><i class="fas fa-search"></i></a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="#"><i class="fab fa-facebook-f"></i></a>
-                              </li>
-                          </ul>
-                        </div>
-                      </nav>
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid">
+        <div class="container-fluid text-center">
             <div class="row">
                 <div class="col-lg-12">
 
 
-                    <h1></h1>
-                    <h2></h2>
+                    <h1>Home</h1>
                 </div>
             </div>
-        </div>
-        
-        
+        </div>  
      </section>
+
+    </header>
+
+  </div>
 
          <!--Section 2 : Catégories-->
     <section>
         <div class="container">
-            <div class="row" id="backgroundImage">
+            <div class="row">
                 <div class="offset-3"> 
                 </div>
                 <div class="col-lg-6"> 
@@ -171,7 +176,6 @@
                             Cras felis ante, sodales eget pretium eu, hendrerit at metus. 
                             Maecenas aliquam dictum sapien id ornare.             
                         </p>
-
                     </div>
                     <div class="col-lg-4"> 
                     </div>

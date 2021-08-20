@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,gBAAgB,CAAC;EACb,gBAAgB,EAAE,OAAO;CAAG",
+    "mappings": "AAAA,AAAA,gBAAgB,CAAC;EACb,gBAAgB,EAAG,oCAAoC;EACvD,eAAe,EAAE,KAAK;EACtB,mBAAmB,EAAE,MAAM;EAC3B,iBAAiB,EAAE,SAAS;EAC5B,cAAc,EAAE,GAAG;CAAG;;AAE1B,AAAA,YAAY,CAAC;EACT,KAAK,EAAE,KAAK;CAAG",
     "sources": [
         "../sass/banniere.sass"
     ],
