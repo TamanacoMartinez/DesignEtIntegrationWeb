@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/* style.css */
+/* Programmé par Tamanaco Martínez */
+/* Dernière Modification: 2021-09-18 */
+@font-face {
+  font-family: theLovecats;
+  src: url(../media/fonts/thelovecats.ttf);
+}
+
+/* style.css */
+/* Programmé par Tamanaco Martínez */
+/* Dernière Modification: 2021-09-18 */
+@font-face {
+  font-family: kissMe;
+  src: url(../media/fonts/KISSMKMK.TTF);
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url(../media/cureHigh.jpg);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  font-family: kissMe;
+  font-size: 30px;
+  color: #ffc107;
+}
+
+.navbar-dark .navbar-nav .active .nav-link {
+  font-size: 30px;
+  color: red;
+  font-weight: bold;
+}
+
+body {
+  background-image: url(../media/cureHigh.jpg);
+  background-repeat: non-repeat;
+  background-size: cover;
+}
+
+html body {
+  margin: 0%;
+  height: 100%;
+}
+
+.parallax {
+  background-image: url("../media/cure-wish.jpg");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: theLovecats;
+  font-size: 80px;
+  color: #ffc107;
+}
+/*# sourceMappingURL=style.css.map */
