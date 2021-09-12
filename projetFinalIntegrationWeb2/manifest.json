@@ -2,21 +2,21 @@
     "name" : "ProjetFinalCurePWA",
     "short_name" : "CurePWA",
     "icons" : [{
-        "src" : "/DesignEtIntegrationWeb/projetFinal/media/icons/pwa-192x192.png",
+        "src" : "/DesignEtIntegrationWeb/projetFinalIntegrationWeb2/media/icons/pwa-192x192.png",
         "sizes" : "192x192",
         "type" : "image/png",
         "purpose" : "any maskable"
     },
     {
-        "src" : "/DesignEtIntegrationWeb/projetFinal/media/icons/pwa-512x512.png",
+        "src" : "/DesignEtIntegrationWeb/projetFinalIntegrationWeb2/media/icons/pwa-512x512.png",
         "sizes" : "512x512",
         "type" : "image/png",
         "purpose" : "any maskable"
 
     }],
-    "start_url" : "/DesignEtIntegrationWeb/projetFinal/index.html",
+    "start_url" : "/DesignEtIntegrationWeb/projetFinalIntegrationWeb2s/index.html",
     "display" : "standalone",
-    "background_color" : "#ff0000",
+    "background_color" : "#FF0000",
     "theme_color" : "#FEDC45"
 
 
