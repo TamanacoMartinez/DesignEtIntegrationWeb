@@ -1,7 +1,7 @@
 {
     "name" : "ProjetFinalCurePWA",
     "short_name" : "CurePWA",
-    "description" : "Ce site constitue le projet final du cours Techniques d’Intégration Web 2.",
+    "description" : "Ce site constitue le projet final du cours Techniques d’Intégration Web 2",
     "icons" : [{
         "src" : "/DesignEtIntegrationWeb/projetFinalIntegrationWeb2/media/icons/android-chrome-maskable-192x192.png",
         "sizes" : "192x192",
@@ -19,21 +19,21 @@
         "src" : "/DesignEtIntegrationWeb/projetFinalIntegrationWeb2/media/icons/android-144x144.png",
         "sizes" : "144x144",
         "type" : "image/png",
-        "purpose" : "maskable"
+        "purpose" : "any"
 
     },
     {
         "src" : "/DesignEtIntegrationWeb/projetFinalIntegrationWeb2/media/icons/android-96x96.png",
         "sizes" : "96x96",
         "type" : "image/png",
-        "purpose" : "maskable"
+        "purpose" : "any"
 
     },
     {
         "src" : "/DesignEtIntegrationWeb/projetFinalIntegrationWeb2/media/icons/android-72x72.png",
         "sizes" : "72x72",
         "type" : "image/png",
-        "purpose" : "maskable"
+        "purpose" : "any"
 
     }],
     "start_url" : "/DesignEtIntegrationWeb/projetFinalIntegrationWeb2s/index.html",
