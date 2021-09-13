@@ -1,6 +1,7 @@
 {
     "name" : "ProjetFinalCurePWA",
     "short_name" : "CurePWA",
+    "description" : "Ce site constitue le projet final du cours Techniques d’Intégration Web 2.",
     "icons" : [{
         "src" : "/DesignEtIntegrationWeb/projetFinalIntegrationWeb2/media/icons/android-chrome-maskable-192x192.png",
         "sizes" : "192x192",
