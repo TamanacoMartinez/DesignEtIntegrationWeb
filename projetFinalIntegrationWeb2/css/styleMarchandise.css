@@ -11,7 +11,7 @@
 }
 
 .navbar-dark .navbar-toggler-icon {
-  background-image: url(../media/cureHigh.jpg);
+  background-image: url(../media/theBigHand.jpg);
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -26,9 +26,107 @@
   font-weight: bold;
 }
 
+.footer {
+  background-color: #343a40;
+}
+
+.icone {
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #ce3341;
+  text-align: left;
+}
+
+@media screen and (max-width: 992px) {
+  .icone {
+    font-size: 30px;
+    font-weight: 250;
+    line-height: 1.5;
+    color: #ce3341;
+    text-align: left;
+  }
+}
+
+#texteFooter {
+  font-family: kissMe;
+  color: #ffc107;
+}
+
+h4, .h4 {
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 992px) {
+  #texteFooter {
+    font-family: kissMe;
+    color: #ffc107;
+    font-size: 1rem;
+  }
+}
+
+@font-face {
+  font-family: wms;
+  src: url(../media/fonts/c-swing.ttf);
+}
+
 body {
   background-image: url(../media/catch.jpg);
   background-repeat: non-repeat;
   background-size: cover;
+}
+
+h1 {
+  background-color: #ce3341;
+  font-family: wms;
+}
+
+form {
+  background-color: #343a40;
+}
+
+label {
+  color: #ce3341;
+  font-family: wms;
+  font-size-adjust: 15px;
+}
+
+button {
+  background-color: #ce3341;
+  font-family: wms;
+}
+
+input {
+  color: #ce3341;
+  font-family: wms;
+}
+
+select {
+  color: #ce3341;
+  font-family: wms;
+}
+
+.centrer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+a img {
+  border-style: solid;
+  color: #ce3341;
+}
+
+a img:hover {
+  color: #ffc107;
+}
+
+@media screen and (max-width: 992px) {
+  h1 {
+    background-color: #ce3341;
+    font-family: wms;
+    font-size: 30px;
+  }
 }
 /*# sourceMappingURL=styleMarchandise.css.map */

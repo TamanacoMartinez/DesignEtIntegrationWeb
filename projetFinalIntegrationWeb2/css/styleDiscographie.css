@@ -11,7 +11,7 @@
 }
 
 .navbar-dark .navbar-toggler-icon {
-  background-image: url(../media/cureHigh.jpg);
+  background-image: url(../media/theBigHand.jpg);
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -26,9 +26,95 @@
   font-weight: bold;
 }
 
-body {
-  background-image: url(../media/cureHigh2.jpg);
+.footer {
+  background-color: #343a40;
+}
+
+.icone {
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #ce3341;
+  text-align: left;
+}
+
+@media screen and (max-width: 992px) {
+  .icone {
+    font-size: 30px;
+    font-weight: 250;
+    line-height: 1.5;
+    color: #ce3341;
+    text-align: left;
+  }
+}
+
+#texteFooter {
+  font-family: kissMe;
+  color: #ffc107;
+}
+
+@font-face {
+  font-family: thelovecats;
+  src: url(../media/fonts/thelovecats.ttf);
+}
+
+@font-face {
+  font-family: wms;
+  src: url(../media/fonts/c-swing.ttf);
+}
+
+.parallax {
+  background-image: url("../media/discographie/Discographie.png");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: theLovecats;
+  font-size: 80px;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: #ffc107;
+}
+
+body {
+  background-color: black;
+  background-size: cover;
+}
+
+#banniereTitre {
+  font-family: thelovecats;
+  font-size: 5rem;
+  color: #d0a21a;
+  font-weight: bolder;
+  background-color: none;
+}
+
+@media screen and (max-width: 992px) {
+  #banniereTitre {
+    font-family: thelovecats;
+    font-size: 30px;
+    color: #d0a21a;
+    font-weight: bolder;
+  }
+}
+
+h1 {
+  background-color: #ce3341;
+  font-family: wms;
+}
+
+h5 {
+  font-family: wms;
+  color: grey;
+}
+
+h5:hover {
+  color: #d0a21a;
+}
+
+img:hover {
+  border-style: solid;
+  color: #d0a21a;
 }
 /*# sourceMappingURL=styleDiscographie.css.map */

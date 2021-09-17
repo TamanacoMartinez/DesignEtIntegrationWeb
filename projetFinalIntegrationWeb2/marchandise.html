@@ -9,6 +9,7 @@
     <title>Accueil</title>
     <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.css">
     <link rel="stylesheet" href="css/styleMarchandise.css"> 
+    <link rel="stylesheet" href="animate.css-main/animate.css">
     <link rel="apple-touch-icon" sizes="180x180" href="media/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="media/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="media/favicon/favicon-16x16.png">
@@ -42,7 +43,7 @@
                         <a class="nav-link" href="marchandise.html">Marchandise</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="rumeurs.html">Rumeurs</a>
+                        <a class="nav-link" href="divers.html">Divers</a>
                       </li>
                     </ul>
                   </div>
@@ -50,11 +51,157 @@
              
           </header>
 
+        <!--bannière-->
+
+        <div class="container-fluid">
+          <div class="row pt-5">
+            <div class="col-12">
+              <h1 class="text-center">Courez la chance de gagner une pièce de memorabilia signée par tous les membres du groupe !!!</h1>
+            </div>
+          </div>
+            <div class="row pt-5">
+              <div class="col-12 mx-lg-auto">
+                <img src="media/s-l300.jpg" alt="prix" class="centrer" >
+              </div>
+            </div>
+
+        </div>
+
+
+         <!--form-->
+
+         <div class="pt-5 pb-5 form">
+            
+          <form class="pt-3 pb-3 pl-3 pr3">
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="nom">Nom</label>
+                <input type="text" class="form-control" id="nom" name="nom" placeholder="Entrez votre nom de famille" maxlength="50" required>
+              </div>
+              <div class="form-group col-md-6">
+                <label for="prenom">Prenom</label>
+                <input type="text" class="form-control" id="prenom" name="prenom" placeholder="Entrez votre prenom" maxlength="50" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="adresse">Adresse</label>
+              <input type="text" class="form-control" id="adresse" name="adresse" placeholder="Entrez votre adresse complete" maxlength="255" required>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-3">
+                <label for="pays">Pays</label>
+                <input type="text" class="form-control" id="pays" name="pays" placeholder="Canada" readonly>
+              </div>
+              <div class="form-group col-md-3">
+                <label for="province">Province</label>
+                <select id="province" name="province" class="form-control" required>
+                  <option selected>Choisissez...</option>
+                  <option>Alberta</option>
+                  <option>Colombie-Britannique</option>
+                  <option>Île-du-Prince-Édouard</option>
+                  <option>Manitoba</option>
+                  <option>Nouveau-Brunswick</option>
+                  <option>Nouvelle-Écosse</option>
+                  <option>Nunavut</option>
+                  <option>Ontario</option>
+                  <option>Québec</option>
+                  <option>Saskatchewan</option>
+                  <option>Terre-Neuve-et-Labrador</option>
+                  <option>Territoires du Nord-Ouest</option>
+                  <option>Yukon</option> 
+                </select>
+              </div>
+              <div class="form-group col-md-3">
+                <label for="ville">Ville</label>
+                <input type="text" class="form-control" id="ville" name="ville" placeholder="Ville" maxlength="50" required>
+              </div>
+              <div class="form-group col-md-3">
+                <label for="codePostal">Code Postal</label>
+                <input type="text" class="form-control" id="codePostal" name="codePostal"  placeholder="XXX-XXX" pattern="[A-Z][0-9][A-Z] [0-9][A-Z][0-9]" required>
+              </div>  
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-3">
+                <label for="téléphone">Téléphone</label>
+                <input type="tel" class="form-control" id="téléphone" name="téléphone" placeholder="000-000-0000" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+              </div>
+              <div class="form-group col-md-3">
+                <label for="genre">Genre</label>
+                <select id="genre" class="form-control" required>
+                  <option selected>Choisissez...</option>
+                  <option>Masculin</option>
+                  <option>Feminin</option>
+                  <option>Autre...</option>
+                </select>
+              </div>
+              <div class="form-group col-md-3">
+                <label for="email">Couriel electronique</label>
+                <input type="email" class="form-control" id="email" placeholder="Entrez votre couriel electronique" required>
+              </div>
+              <div class="form-group col-md-3">
+                <label for="motDePasse">Mot de passe</label>
+                <input type="password" class="form-control" id="motDePasse" placeholder="Entrez votre mot de passe" minlength="9" maxlength="12" required>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-danger">Envoyer</button>
+          </form>
+        
+        </div>
+
+        <!--marchandise-->
+        
+          <h1 class="text-center">T-shirts en aubaine...!!!</h1>
+
+          <div class="container-fluid align-content-center pb-5">
+            <div class="row pt-5 align-content-center">
+              <div class="col-lg-3 col-md-6 col-sm-12 img-fluid"><a href="https://rockabilia.com/collections/cure" target="blank"><img src="media/marchandise/116549F_medium.jpg" alt="t-shirt 01" class="img"></a></div>
+              <div class="col-lg-3 col-md-6 col-sm-12 img-fluid"><a href="https://rockabilia.com/collections/cure" target="blank"><img src="media/marchandise/127698F_medium.jpg" alt="t-shirt-02"></a></div>
+              <div class="col-lg-3 col-md-6 col-sm-12 img-fluid"><a href="https://rockabilia.com/collections/cure" target="blank"> <img src="media/marchandise/127724F_medium.jpg" alt="t-shirt-03"></a></div>
+              <div class="col-lg-3 col-md-6 col-sm-12 img-fluid"><a href="https://rockabilia.com/collections/cure" target="blank"><img src="media/marchandise/208246F_medium.jpg" alt="t-shirt-04"></a></div>
+            </div>
+            <div class="row pt-5 align-content-center">
+              <div class="col-lg-3 col-md-6 col-sm-12 img-fluid"><a href="https://rockabilia.com/collections/cure" target="blank"><img src="media/marchandise/208247F_medium.jpg" alt="t-shirt-05"></a></div>
+              <div class="col-lg-3 col-md-6 col-sm-12 img-fluid"><a href="https://rockabilia.com/collections/cure" target="blank"><img src="media/marchandise/290270F_medium.jpg" alt="t-shirt-06"></a></div>
+              <div class="col-lg-3 col-md-6 col-sm-12 img-fluid"><a href="https://rockabilia.com/collections/cure" target="blank"><img src="media/marchandise/373446F_medium.jpg" alt="t-shirt-07"></a></div>
+              <div class="col-lg-3 col-md-6 col-sm-12 img-fluid"><a href="https://rockabilia.com/collections/cure" target="blank"><img src="media/marchandise/380915F_medium.jpg" alt="t-shirt-08"></a></div>
+            </div>
+            <div class="row pt-5 align-content-center">
+              <div class="col-lg-3 col-md-6 col-sm-12 img-fluid"><a href="https://rockabilia.com/collections/cure" target="blank"><img src="media/marchandise/416446F_medium.jpg" alt="t-shirt-09"></a></div>
+              <div class="col-lg-3 col-md-6 col-sm-12 img-fluid"><a href="https://rockabilia.com/collections/cure" target="blank"><img src="media/marchandise/416448F_medium.jpg" alt="t-shirt-10"></a></div>
+              <div class="col-lg-3 col-md-6 col-sm-12 img-fluid"><a href="https://rockabilia.com/collections/cure" target="blank"><img src="media/marchandise/83812F_medium.jpg" alt="t-shirt-11"></a></div>
+              <div class="col-lg-3 col-md-6 col-sm-12 img-fluid"><a href="https://rockabilia.com/collections/cure" target="blank"><img src="media/marchandise/84945F_medium.jpg" alt="t-shirt-12"></a></div>
+            </div>
+          </div>
+
+        
+        <!--footer-->
+
+          <footer>
+        
+            <div class="container-fluid footer">
+              <div class="row icone pb-1">
+                  <div class="col-3 align-content-center">
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                  </div>
+                  <div class="col-6 d-flex align-items-center justify-content-center pt-lg-3">
+                    <h4 id="texteFooter">Copyright © (Tamanaco Martínez) 2021</h4>
+                  </div>
+              </div>
+            </div>
+
+         </footer> 
+          
+
 
 <script src="https://kit.fontawesome.com/a46d75ba7a.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="bootstrap-4.3.1-dist/js/bootstrap.js"></script>
 <script src="service-worker.js"></script>
 <script src="js/install.js"></script>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/Lettering.js-master/jquery.lettering.js"></script>
+<script src="js/textillate-master/jquery.textillate.js"></script>
 </body>
 </html>

@@ -2,11 +2,6 @@
 /* style.css */
 /* Programmé par Tamanaco Martínez */
 /* Dernière Modification: 2021-09-18 */
-@font-face {
-  font-family: theLovecats;
-  src: url(../media/fonts/thelovecats.ttf);
-}
-
 /* style.css */
 /* Programmé par Tamanaco Martínez */
 /* Dernière Modification: 2021-09-18 */
@@ -16,7 +11,7 @@
 }
 
 .navbar-dark .navbar-toggler-icon {
-  background-image: url(../media/cureHigh.jpg);
+  background-image: url(../media/theBigHand.jpg);
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -31,10 +26,50 @@
   font-weight: bold;
 }
 
+.footer {
+  background-color: #343a40;
+}
+
+.icone {
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #ce3341;
+  text-align: left;
+}
+
+@media screen and (max-width: 992px) {
+  .icone {
+    font-size: 30px;
+    font-weight: 250;
+    line-height: 1.5;
+    color: #ce3341;
+    text-align: left;
+  }
+}
+
+#texteFooter {
+  font-family: kissMe;
+  color: #ffc107;
+}
+
+@font-face {
+  font-family: theLovecats;
+  src: url(../media/fonts/thelovecats.ttf);
+}
+
+@font-face {
+  font-family: kissMe;
+  src: url(../media/fonts/KISSMKMK.TTF);
+}
+
+@font-face {
+  font-family: wms;
+  src: url(../media/fonts/c-swing.ttf);
+}
+
 body {
-  background-image: url(../media/cureHigh.jpg);
-  background-repeat: non-repeat;
-  background-size: cover;
+  background-color: black;
 }
 
 html body {
@@ -43,7 +78,7 @@ html body {
 }
 
 .parallax {
-  background-image: url("../media/cure-wish.jpg");
+  background-image: url("../media/Live.jpg");
   height: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -51,6 +86,48 @@ html body {
   background-size: cover;
   font-family: theLovecats;
   font-size: 80px;
+  padding-top: 20%;
+  padding-bottom: 20%;
   color: #ffc107;
+}
+
+h3 {
+  font-family: theLovecats;
+  color: #ffc107;
+}
+
+button {
+  font-family: wms;
+  color: #ffc107;
+}
+
+.modal-content {
+  background-color: black;
+}
+
+.modal-title {
+  font-family: wms;
+  color: #ffc107;
+}
+
+a {
+  font-family: wms;
+  color: #ffc107;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h5:hover {
+  color: #ce3341;
+}
+
+@media screen and (max-width: 992px) {
+  h3 {
+    font-family: theLovecats;
+    color: #ffc107;
+    font-size: 20px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

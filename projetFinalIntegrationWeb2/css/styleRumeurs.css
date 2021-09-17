@@ -11,7 +11,7 @@
 }
 
 .navbar-dark .navbar-toggler-icon {
-  background-image: url(../media/cureHigh.jpg);
+  background-image: url(../media/theBigHand.jpg);
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -26,9 +26,76 @@
   font-weight: bold;
 }
 
+.footer {
+  background-color: #343a40;
+}
+
+.icone {
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #ce3341;
+  text-align: left;
+}
+
+@media screen and (max-width: 992px) {
+  .icone {
+    font-size: 30px;
+    font-weight: 250;
+    line-height: 1.5;
+    color: #ce3341;
+    text-align: left;
+  }
+}
+
+#texteFooter {
+  font-family: kissMe;
+  color: #ffc107;
+}
+
+h4, .h4 {
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 992px) {
+  #texteFooter {
+    font-family: kissMe;
+    color: #ffc107;
+    font-size: 1rem;
+  }
+}
+
+@font-face {
+  font-family: wms;
+  src: url(../media/fonts/c-swing.ttf);
+}
+
 body {
-  background-image: url(../media/lost-wishes.jpg);
+  background-image: url(../media/cureHigh2.jpg);
   background-repeat: non-repeat;
   background-size: cover;
+}
+
+.centrer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+h1, h3, h4, h5 {
+  font-family: wms;
+  color: #f1e7e7;
+}
+
+h1:hover, h3:hover, h4:hover, h5:hover {
+  font-family: wms;
+  color: #bdb3b3;
+}
+
+img {
+  height: 300px;
+  width: 250px;
+  object-fit: cover;
 }
 /*# sourceMappingURL=styleRumeurs.css.map */
