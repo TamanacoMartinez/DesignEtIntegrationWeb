@@ -36,7 +36,7 @@
         "purpose" : "any"
 
     }],
-    "start_url" : "/DesignEtIntegrationWeb/projetFinalIntegrationWeb2s/index.html",
+    "start_url" : "/DesignEtIntegrationWeb/projetFinalIntegrationWeb2/",
     "display" : "standalone",
     "background_color" : "#FF0000",
     "theme_color" : "#FEDC45"
