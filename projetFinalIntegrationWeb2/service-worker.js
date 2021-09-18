@@ -9,6 +9,8 @@ const FILES_TO_CACHE = [
     "discographie.html",
     "marchandise.html",
     "divers.html",
+    
+
 
 ];
 
@@ -54,15 +56,14 @@ self.addEventListener('fetch', (evt) => {
         .catch(() => {
             return caches.open(CACHE_NAME)
                 .then((cache) => {
-    return cache.match('/Cochenille/PointNClick/offline.html');
-                }
-        );
+                    return cache.match('/DesignEtIntegrationWeb/projetFinalIntegrationWeb2/offline.html');
+                });
         })
-);
-
-
+    );
 
 });
+
+
 
 // Register service worker.
 if ('serviceWorker' in navigator) {
