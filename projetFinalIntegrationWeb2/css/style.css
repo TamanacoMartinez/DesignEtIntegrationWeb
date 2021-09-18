@@ -26,6 +26,9 @@
   font-weight: bold;
 }
 
+/* style.css */
+/* Programmé par Tamanaco Martínez */
+/* Dernière Modification: 2021-09-18 */
 .footer {
   background-color: #343a40;
 }
@@ -51,6 +54,18 @@
 #texteFooter {
   font-family: kissMe;
   color: #ffc107;
+}
+
+h4, .h4 {
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 992px) {
+  #texteFooter {
+    font-family: kissMe;
+    color: #ffc107;
+    font-size: 1rem;
+  }
 }
 
 @font-face {
