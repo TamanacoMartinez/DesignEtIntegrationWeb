@@ -1,0 +1,24 @@
+/*
+ *@name slideInDown
+ *@className slideInDown animated
+ *@cssCode true
+ *@editionLink codepen.io
+ *@author Dan Eden
+ *@source Animate.css
+ *@sourceUrl http://daneden.github.io/animate.css/
+ *@issues https://github.com/daneden/animate.css/issues
+ *@license MIT
+ */
+@keyframes slideInDown {
+  0% {
+    transform: translate3d(0, -100%, 0);
+    visibility: visible
+  }
+  100% {
+    transform: translate3d(0, 0, 0)
+  }
+}
+
+.slideInDown {
+  animation-name: slideInDown
+}

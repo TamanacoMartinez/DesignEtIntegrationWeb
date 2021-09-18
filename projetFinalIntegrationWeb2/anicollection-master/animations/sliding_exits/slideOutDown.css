@@ -1,0 +1,24 @@
+/*
+ *@name slideOutDown
+ *@className slideOutDown animated
+ *@cssCode true
+ *@editionLink codepen.io
+ *@author Dan Eden
+ *@source Animate.css
+ *@sourceUrl http://daneden.github.io/animate.css/
+ *@issues https://github.com/daneden/animate.css/issues
+ *@license MIT
+ */
+@keyframes slideOutDown {
+  0% {
+    transform: translate3d(0, 0, 0)
+  }
+  100% {
+    visibility: hidden;
+    transform: translate3d(0, 100%, 0)
+  }
+}
+
+.slideOutDown {
+  animation-name: slideOutDown
+}
