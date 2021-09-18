@@ -66,66 +66,36 @@ h4, .h4 {
 }
 
 @font-face {
-  font-family: thelovecats;
-  src: url(../media/fonts/thelovecats.ttf);
-}
-
-@font-face {
   font-family: wms;
   src: url(../media/fonts/c-swing.ttf);
 }
 
-.parallax {
-  background-image: url("../media/discographie/Discographie.png");
-  height: 100%;
-  background-attachment: fixed;
-  background-position: center;
+body {
+  background-image: url(../media/cureHigh2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: theLovecats;
-  font-size: 80px;
-  padding-top: 20%;
-  padding-bottom: 20%;
-  color: #ffc107;
 }
 
-body {
-  background-color: black;
-  background-size: cover;
+.centrer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
 }
 
-#banniereTitre {
-  font-family: thelovecats;
-  font-size: 5rem;
-  color: #d0a21a;
-  font-weight: bolder;
-}
-
-@media screen and (max-width: 992px) {
-  #banniereTitre {
-    font-family: thelovecats;
-    font-size: 30px;
-    color: #d0a21a;
-    font-weight: bolder;
-  }
-}
-
-h1 {
-  background-color: #ce3341;
+h1, h3, h4, h5 {
   font-family: wms;
+  color: #f1e7e7;
 }
 
-h5 {
+h1:hover, h3:hover, h4:hover, h5:hover {
   font-family: wms;
-  color: grey;
+  color: #bdb3b3;
 }
 
-h5:hover {
-  color: #d0a21a;
+img {
+  height: 300px;
+  width: 250px;
+  object-fit: cover;
 }
-
-img:hover {
-  border-style: solid;
-  color: #d0a21a;
-}
-/*# sourceMappingURL=styleDiscographie.css.map */
+/*# sourceMappingURL=styleDivers.css.map */

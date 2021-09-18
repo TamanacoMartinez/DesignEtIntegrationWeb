@@ -72,7 +72,7 @@ h4, .h4 {
 
 body {
   background-image: url(../media/catch.jpg);
-  background-repeat: non-repeat;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -88,7 +88,6 @@ form {
 label {
   color: #ce3341;
   font-family: wms;
-  font-size-adjust: 15px;
 }
 
 button {

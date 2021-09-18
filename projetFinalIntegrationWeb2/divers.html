@@ -8,12 +8,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"> 
     <title>Accueil</title>
     <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.css">
-    <link rel="stylesheet" href="css/styleRumeurs.css"> 
+    <link rel="stylesheet" href="css/styleDivers.css"> 
     <link rel="stylesheet" href="animate.css-main/animate.css">
+    <link rel="stylesheet" href="http://anijs.github.io/lib/anicollection/anicollection.css">
     <link rel="apple-touch-icon" sizes="180x180" href="media/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="media/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="media/favicon/favicon-16x16.png">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="mask-icon" href="media/favicon/safari-pinned-tab.svg" color="#5bbad5">
     <link rel="manifest" href="manifest.json">
 </head>
 
@@ -23,7 +24,7 @@
         
         <!--navbar-->
               
-              <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+              <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark" data-anijs="if: mouseover, do: animated rubberBand">
                   <a class="navbar-brand" href="#"></a>
                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -59,7 +60,7 @@
               <h1 class="text-center pb-5">Robert Smith Guitar Gear</h1>
             </div>
             <div class="col-12 pb-5">
-              <img src="media/rob1-300x293.jpg" alt="Robert Smith" class="centrer">
+              <img src="media/rob1-300x293.jpg" alt="Robert Smith" class="centrer layer">
             </div>
             <div class="col-12 pb-5">
               <div class="col-12 pb-5 text-center">
@@ -77,7 +78,7 @@
           </div>
           <div class="row align-items-center text-center pt-5">
             <div class="col-lg-3 col-md-6 col-sm-12 pt-3 pb-3"><h3>Schecter Ultra Cure 40th Anniversary</h3></div>
-            <div class="col-lg-3 col-md-6 col-sm-12"><img src="media/Ultra Cure 40th Anniversary.jpg" alt=" Schecter Ultra Cure" class="img-fluid"></div>
+            <div class="col-lg-3 col-md-6 col-sm-12"><img src="media/Ultra-Cure-40th-Anniversary.jpg" alt=" Schecter Ultra Cure" class="img-fluid"></div>
             <div class="col-lg-3 col-md-6 col-sm-12 pt-3 pb-3"><h3>Schecter RS-1000 Stage Acoustic</h3></div>
             <div class="col-lg-3 col-md-6 col-sm-12"><img src="media/CC210616708-body-large.jpg" alt="SchecterRS-1000 Stage Acoustic" class="img-fluid"></div>
           </div>
@@ -91,17 +92,18 @@
 
       <!--live gig-->
         <div class="container-fluid pb-5">
-          <div class="row"></div>
+          <div class="row">
             <div class="offset-4 col-4 text-center">
               <h1>L'une des premières "Live Gigs" enregistrées de The Cure</h1><br><h3>(Apeldoorn, Pays-Bas, le 18 Juillet 1980)</h3>
             </div>
-            <p class="text-center"><iframe width="420" height="315" src="https://www.youtube.com/embed/Rj7lbz_yr6E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-        
+          </div>
+        </div> 
+            <p class="text-center"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Rj7lbz_yr6E" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 
-        <!--footer-->
+           <!--footer-->
 
-          <footer>
+           <footer  data-anijs="if: mouseover, do: swing animated">
         
             <div class="container-fluid footer">
               <div class="row icone pb-1">
@@ -112,7 +114,7 @@
                   </div>
                   <div class="col-6 d-flex align-items-center justify-content-center pt-lg-3">
                     <h4 id="texteFooter">Copyright © (Tamanaco Martínez) 2021</h4>
-                  </div>
+                  </div> 
               </div>
             </div>
 
@@ -125,8 +127,7 @@
 <script src="bootstrap-4.3.1-dist/js/bootstrap.js"></script>
 <script src="service-worker.js"></script>
 <script src="js/install.js"></script>
-<script src="js/jquery-3.6.0.min.js"></script>
-<script src="js/Lettering.js-master/jquery.lettering.js"></script>
-<script src="js/textillate-master/jquery.textillate.js"></script>
+<script src="anijs.js"></script>
+<script src="pushIn.js"></script>
 </body>
 </html>
