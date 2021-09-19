@@ -44,11 +44,6 @@ const FILES_TO_CACHE = [
     'media/membres/simon-gallup-cure-trnd.jpg',
     'media/discographie/The-Cure-LiveFromTheMoon.png',
     'media/discographie/Discographie.png',
-    'media/fonts/c-swing.ttf',
-    'media/fonts/playout.ttf',
-    'media/fonts/KISSMKMK.TTF',
-    'media/fonts/DISINTEG.TTF',
-    'media/fonts/thelovecats.ttf'
 
 
 ];
