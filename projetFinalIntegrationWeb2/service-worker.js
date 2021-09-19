@@ -10,7 +10,7 @@ const FILES_TO_CACHE = [
     'marchandise.html',
     'divers.html',
     'anijs.js',
-    'pushIn.js'
+    'pushIn.js',
     'bootstrap-4.3.1-dist',
     'css/anicollection.css',
     'animate.css-main/animate.css',
@@ -43,7 +43,7 @@ const FILES_TO_CACHE = [
     'media/membres/Jason-Cooper.jpg',
     'media/membres/simon-gallup-cure-trnd.jpg',
     'media/discographie/The-Cure-LiveFromTheMoon.png',
-    'media/discographie/Discographie.png',
+    'media/discographie/Discographie.png'
 
 
     
