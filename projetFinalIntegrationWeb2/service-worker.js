@@ -1,5 +1,5 @@
 //Update cache names any time any of the cached files change.
-const CACHE_NAME = 'static-cache-v8';
+const CACHE_NAME = 'static-cache-v9';
 
 //Add list of files to cache here.
 const FILES_TO_CACHE = [
@@ -11,10 +11,10 @@ const FILES_TO_CACHE = [
     'divers.html',
     'anijs.js',
     'pushIn.js',
-    'bootstrap-4.3.1-dist',
     'css/anicollection.css',
     'animate.css-main/animate.css',
     'css/style.css',
+    'bootstrap-4.3.1-dist/css/bootstrap.css',
     'css/styleBiographie.css',
     'css/styleDiscographie.css',
     'css/styleDivers.css',
@@ -43,27 +43,32 @@ const FILES_TO_CACHE = [
     'media/membres/Jason-Cooper.jpg',
     'media/membres/simon-gallup-cure-trnd.jpg',
     'media/discographie/The-Cure-LiveFromTheMoon.png',
-    'media/discographie/Discographie.png'
+    'media/discographie/Discographie.png',
+    'media/fonts/c-swing.ttf',
+    'media/fonts/DISINTEG.TTF',
+    'media/fonts/KISSMKMK.TTF',
+    'media/fonts/thelovecats.ttf',
+    'media/fonts/playout.ttf',
+    'media/fonts/playout.ttf'
 
 
-    
 ];
 
 self.addEventListener('install', (evt) => {
-   console.log('[ServiceWorker] Install');
-   // Precache static resources here.
-   evt.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => {
-        console.log('[ServiceWorker] Pre-caching offline page');
-        return cache.addAll(FILES_TO_CACHE);
-    })
+    console.log('[ServiceWorker] Install');
+    // Precache static resources here.
+    evt.waitUntil(
+        caches.open(CACHE_NAME).then((cache) => {
+            console.log('[ServiceWorker] Pre-caching offline page');
+            return cache.addAll(FILES_TO_CACHE);
+        })
     );
-   self.skipWaiting();
+    self.skipWaiting();
 });
 
 self.addEventListener('activate', (evt) => {
-   console.log('[ServiceWorker] Activate');
-   //Remove previous cached data from disk.
+    console.log('[ServiceWorker] Activate');
+    //Remove previous cached data from disk.
     evt.waitUntil(
         caches.keys().then((keyList) => {
             return Promise.all(keyList.map((key) => {
@@ -71,31 +76,29 @@ self.addEventListener('activate', (evt) => {
                     console.log('[ServiceWorker] Removing old cache', key);
                     return caches.delete(key);
                 }
-            })
+            }));
+        })
     );
-    })
-);
-   self.clients.claim();
+    self.clients.claim();
 });
 
 
 self.addEventListener('fetch', (evt) => {
-   console.log('[ServiceWorker] Fetch', evt.request.url);
-   //Add fetch event handler here.
-   if (evt.request.mode !== 'navigate') {
-    // Not a page navigation, bail.
-    return;
+    console.log('[ServiceWorker] Fetch', evt.request.url);
+    //Add fetch event handler here.
+    if (evt.request.mode !== 'navigate') {
+        // Not a page navigation, bail.
+        return;
     }
     evt.respondWith(
-    fetch(evt.request)
+        fetch(evt.request)
         .catch(() => {
             return caches.open(CACHE_NAME)
                 .then((cache) => {
-    return cache.match('/DesignEtIntegrationWeb/projetFinalIntegrationWeb2/offline.html');
-                }
-        );
+                    return cache.match('/DesignEtIntegrationWeb/projetFinalIntegrationWeb2/offline.html');
+                });
         })
-);
+    );
 
 
 
@@ -104,11 +107,9 @@ self.addEventListener('fetch', (evt) => {
 // Register service worker.
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
-      navigator.serviceWorker.register('service-worker.js')
-          .then((reg) => {
-            console.log('Service worker registered.', reg);
-          });
+        navigator.serviceWorker.register('service-worker.js')
+            .then((reg) => {
+                console.log('Service worker registered.', reg);
+            });
     });
-  }
-  
-
+}
