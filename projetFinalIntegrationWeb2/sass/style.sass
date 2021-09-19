@@ -18,18 +18,15 @@
     font-family: wms
     src: url(../media/fonts/c-swing.ttf)
 
-
     
 body
     background-color: black
-
 
 html body 
     margin: 0%
     height: 100%
 
        
-
 .parallax 
     background-image: url("../media/Live.jpg")
     height: 100%
@@ -47,12 +44,19 @@ h3
     font-family: theLovecats
     color: #ffc107
 
+@media screen and (max-width:  992px)  
+    h3
+        font-family: theLovecats
+        color: #ffc107
+        font-size: 20px
+
 button
     font-family: wms
     color: #ffc107
-
-.modal-content
+ 
+.modal-content 
     background-color: black
+
 
 .modal-title
     font-family: wms
@@ -68,11 +72,13 @@ a:hover
 h5:hover
     color:#ce3341 
 
-@media screen and (max-width:  992px)  
-    h3
-        font-family: theLovecats
-        color: #ffc107
-        font-size: 20px
+@mixin banniere__image
+    display: block
+    margin-left: auto
+    margin-right: auto
+    width: 25%
+
+
     
     
     

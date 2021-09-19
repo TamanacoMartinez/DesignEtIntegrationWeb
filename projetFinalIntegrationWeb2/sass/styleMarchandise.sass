@@ -10,6 +10,12 @@
     font-family: wms
     src: url(../media/fonts/c-swing.ttf)  
 
+@mixin banniere__image
+    display: block
+    margin-left: auto
+    margin-right: auto
+    width: 25%
+
 body
     background-image: url(../media/catch.jpg)
     background-repeat: no-repeat
@@ -39,19 +45,14 @@ select
     color: #ce3341
     font-family: wms
 
-.centrer
-  display: block
-  margin-left: auto
-  margin-right: auto
-  width: 25%
+.banniere__image 
+    @include banniere__image
 
 a
     img
         border-style: solid 
         color: #ce3341
        
-
-
 a
     img:hover
         color: #ffc107

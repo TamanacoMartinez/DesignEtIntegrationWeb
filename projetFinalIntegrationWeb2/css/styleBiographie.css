@@ -33,7 +33,7 @@
   background-color: #343a40;
 }
 
-.icone {
+.footer__icone {
   font-size: 3rem;
   font-weight: 400;
   line-height: 1.5;
@@ -42,7 +42,7 @@
 }
 
 @media screen and (max-width: 992px) {
-  .icone {
+  .footer__icone {
     font-size: 30px;
     font-weight: 250;
     line-height: 1.5;
@@ -51,21 +51,21 @@
   }
 }
 
-#texteFooter {
+.footer__texte {
   font-family: kissMe;
   color: #ffc107;
 }
 
-h4, .h4 {
-  font-size: 1rem;
-}
-
 @media screen and (max-width: 992px) {
-  #texteFooter {
+  .footer__texte {
     font-family: kissMe;
     color: #ffc107;
     font-size: 1rem;
   }
+}
+
+h4, .h4 {
+  font-size: 1rem;
 }
 
 @font-face {
@@ -73,13 +73,13 @@ h4, .h4 {
   src: url(../media/fonts/DISINTEG.TTF);
 }
 
-.background-image {
+.biographie__backgroundImage {
   background-image: url(../media/lost-wishes.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.biographie--font {
+.biographie__font {
   font-family: Disintegration;
 }
 
@@ -87,14 +87,14 @@ h1 {
   font-family: Disintegration;
 }
 
+h1:hover, h5:hover {
+  color: #d0a21a;
+}
+
 h5 {
   font-family: Disintegration;
   color: #212529;
   text-decoration: none;
-}
-
-h1:hover, h5:hover {
-  color: #d0a21a;
 }
 
 a:hover {

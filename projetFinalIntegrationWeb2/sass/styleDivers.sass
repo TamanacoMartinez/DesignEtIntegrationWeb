@@ -8,18 +8,21 @@
 
 @font-face   
     font-family: wms
-    src: url(../media/fonts/c-swing.ttf)   
+    src: url(../media/fonts/c-swing.ttf)  
+
+@mixin banniere__image
+    display: block
+    margin-left: auto
+    margin-right: auto
+    width: 25% 
 
 body
     background-image: url(../media/cureHigh2.jpg)
     background-repeat: no-repeat
     background-size: cover
 
-.centrer
-  display: block
-  margin-left: auto
-  margin-right: auto
-  width: 25%
+.banniere__image
+     @include banniere__image
 
 
 h1, h3, h4, h5
