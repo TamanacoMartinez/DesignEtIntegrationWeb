@@ -33,11 +33,11 @@
   .footer__texte {
     font-family: kissMe;
     color: #ffc107;
-    font-size: 1rem;
+    font-size: 12px;
   }
 }
 
 h4, .h4 {
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 /*# sourceMappingURL=styleFooter.css.map */
