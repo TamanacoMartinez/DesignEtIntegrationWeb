@@ -1,5 +1,5 @@
 //Update cache names any time any of the cached files change.
-const CACHE_NAME = 'static-cache-v3';
+const CACHE_NAME = 'static-cache-v4';
 
 //Add list of files to cache here.
 const FILES_TO_CACHE = [
@@ -42,7 +42,13 @@ const FILES_TO_CACHE = [
     'media/membres/Perry-Bamonte.jpg',
     'media/membres/Jason-Cooper.jpg',
     'media/membres/simon-gallup-cure-trnd.jpg',
-    'media/discographie/The-Cure-LiveFromTheMoon.png'
+    'media/discographie/The-Cure-LiveFromTheMoon.png',
+    'media/discographie/Discographie.png',
+    'media/fonts/c-swing.ttf',
+    'media/fonts/playout.ttf',
+    'media/fonts/KISSMKMK.TTF',
+    'media/fonts/DISINTEG.TTF',
+    'media/fonts/thelovecats.ttf'
 
 
 ];
