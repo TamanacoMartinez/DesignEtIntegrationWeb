@@ -1,5 +1,5 @@
 //Update cache names any time any of the cached files change.
-const CACHE_NAME = 'static-cache-v9';
+const CACHE_NAME = 'static-cache-v10';
 
 //Add list of files to cache here.
 const FILES_TO_CACHE = [
@@ -11,46 +11,6 @@ const FILES_TO_CACHE = [
     'divers.html',
     'anijs.js',
     'pushIn.js',
-    'css/anicollection.css',
-    'animate.css-main/animate.css',
-    'css/style.css',
-    'bootstrap-4.3.1-dist/css/bootstrap.css',
-    'css/styleBiographie.css',
-    'css/styleDiscographie.css',
-    'css/styleDivers.css',
-    'css/styleFooter.css',
-    'css/styleIndex.css',
-    'css/styleMarchandise.css',
-    'css/styleNavbar.css',
-    'media/Live.jpg',
-    'media/lost-wishes.jpg',
-    'media/cureHigh.jpg',
-    'media/cureHigh2.jpg',
-    'media/catch.jpg',
-    'media/rob1-300x293.jpg',
-    'media/jazzmaster.jpg',
-    'media/Ultra-Cure-40th-Anniversary.jpg',
-    'media/Boss-Delay.jpg',
-    'media/Boss-Chorus.jpg',
-    'media/CC210616708-body-large.jpg',
-    'media/Bass-VI_x5d0oe.jpg',
-    'media/membres/Simon_Gallup_2012.jpeg',
-    'media/membres/1024px-Robert_Smith_-_The_Cure_-_Roskilde_Festival_2012_-_Orange_Stage.jpg',
-    'media/membres/Entrevista-Lol-Tolhurst-bat.png',
-    'media/membres/800px-150-Reeves-Gabrels.jpg',
-    'media/membres/640full-boris-williams.jpg',
-    'media/membres/Perry-Bamonte.jpg',
-    'media/membres/Jason-Cooper.jpg',
-    'media/membres/simon-gallup-cure-trnd.jpg',
-    'media/discographie/The-Cure-LiveFromTheMoon.png',
-    'media/discographie/Discographie.png',
-    'media/fonts/c-swing.ttf',
-    'media/fonts/DISINTEG.TTF',
-    'media/fonts/KISSMKMK.TTF',
-    'media/fonts/thelovecats.ttf',
-    'media/fonts/playout.ttf',
-    'media/fonts/playout.ttf'
-
 
 ];
 
